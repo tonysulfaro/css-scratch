@@ -1,0 +1,21 @@
+.card {
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 1em;
+}
+
+.card-img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card h2 {
+    margin-left: 1em;
+}
