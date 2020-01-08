@@ -1,0 +1,14 @@
+.profile-img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+/* constrain image to containing element */
+.profile-img img {
+    width: 150px;
+    height: 150px;
+}
