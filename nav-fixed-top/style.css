@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* navbar styles */
+.topnav {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    width: 100%;
+    background-color: #212121;
+    padding: 0 2em 0 0;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(46, 60, 125);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(195, 211, 127);
+}
