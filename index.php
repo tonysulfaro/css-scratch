@@ -91,18 +91,13 @@
       <div class="row">
         <div class="column">
           <pre><code><? $str = <<<'EOD'
-            <div class="card-black-bottom">
-              <div class="card-black-bottom-img">
-                <img src="./example-assets/digital.jpg" alt="">
-              </div>
-              <h2>Card Title</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-              elit. Ad omnis sunt aliquam unde dicta aspernatur
-              fugiat deleniti. Temporibus deleniti, labore 
-              asperiores voluptate quasi, sunt eum mollitia ducimus, 
-              vel rerum nesciunt.
-              </p>
-            </div>
+            <div class="team-card">
+            <img src="https://www.tonysulfaro.dev/MI-449-html-semantic-elements/assets/tony.jpeg"
+              alt="tony profile picture">
+            <p><strong>Tony Sulfaro</strong></p>
+            <p><i>Co-Founder</i></p>
+            <p>I have been fishing on the bay for many years. Ice fishing is my specialty.</p>
+          </div>
           EOD;
             $str = htmlspecialchars($str, ENT_HTML5, ENT_NOQUOTES);
             $str = str_replace("&amp;hellip;", "&hellip;", $str);
@@ -112,43 +107,37 @@
         <div class="column">
 
           <pre>
-            .card-black-bottom {
-              width: 500px;
-              height: auto;
-              background-color: black;
-              border-radius: 5px;
-              color: white;
-              padding-bottom: 1em;
-            }
-            
-            .card-black-bottom-img {
-              height: 200px;
-              overflow: hidden;
-            }
-            
-            .card-black-bottom-img img {
-              width: 100%;
-            }
-            
-            .card-black-bottom h2, p {
-              margin-left: 30px;
-              margin-right: 30px;
-            }
+          /* card person information */
+          .team-card {
+            /* this looked nice so I threw it in https://codepen.io/sdthornton/pen/wBZdXq */
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12),
+                0 2px 4px rgba(0, 0, 0, 0.24);
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            margin: 2em 0 0 0;
+            padding: 2em;
+          }
+
+          .team-card:hover {
+            transform: translateY(-5px);
+          }
+
+          .team-card img {
+            border-radius: 50%;
+            height: 200px;
+          }
           </pre>
 
         </div>
         <div class="column">
-          <div class="card-black-bottom">
-            <div class="card-black-bottom-img">
-              <img src="./example-assets/digital.jpg" alt="">
-            </div>
-            <h2>Card Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis sunt aliquam unde dicta aspernatur
-              fugiat
-              deleniti. Temporibus deleniti, labore asperiores voluptate quasi, sunt eum mollitia ducimus, vel rerum
-              nesciunt.
-            </p>
-          </div>
+        <div class="team-card">
+          <img src="https://www.tonysulfaro.dev/MI-449-html-semantic-elements/assets/tony.jpeg"
+            alt="tony profile picture">
+          <p><strong>Tony Sulfaro</strong></p>
+          <p><i>Co-Founder</i></p>
+          <p>I have been fishing on the bay for many years. Ice fishing is my specialty.</p>
+        </div>
         </div>
 
       </div>
@@ -160,13 +149,7 @@
 
       <div class="example">
         <p><strong>card-person-information</strong></p>
-        <div class="team-card">
-          <img src="https://www.tonysulfaro.dev/MI-449-html-semantic-elements/assets/tony.jpeg"
-            alt="tony profile picture">
-          <p><strong>Tony Sulfaro</strong></p>
-          <p><i>Co-Founder</i></p>
-          <p>I have been fishing on the bay for many years. Ice fishing is my specialty.</p>
-        </div>
+        
       </div>
 
       <div class="example">
