@@ -92,11 +92,13 @@
         <div class="column">
           <pre><code><? $str = <<<'EOD'
             <div class="team-card">
-            <img src="https://www.tonysulfaro.dev/MI-449-html-semantic-elements/assets/tony.jpeg"
+            <img src="https://www.tonysulfaro.dev/
+            MI-449-html-semantic-elements/assets/tony.jpeg"
               alt="tony profile picture">
             <p><strong>Tony Sulfaro</strong></p>
             <p><i>Co-Founder</i></p>
-            <p>I have been fishing on the bay for many years. Ice fishing is my specialty.</p>
+            <p>I have been fishing on the bay for many years. 
+            Ice fishing is my specialty.</p>
           </div>
           EOD;
             $str = htmlspecialchars($str, ENT_HTML5, ENT_NOQUOTES);
@@ -109,7 +111,8 @@
           <pre>
           /* card person information */
           .team-card {
-            /* this looked nice so I threw it in https://codepen.io/sdthornton/pen/wBZdXq */
+            /* this looked nice so I threw it in 
+            https://codepen.io/sdthornton/pen/wBZdXq */
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12),
                 0 2px 4px rgba(0, 0, 0, 0.24);
             border-radius: 10px;
