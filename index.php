@@ -20,7 +20,7 @@
 
   <div class="container">
     <h2>Check Some of Them Out Below</h2>
-
+  </div>
     <!-- grid time -->
     <div class="example-container">
       <div class="row">
@@ -136,7 +136,7 @@
       </div>
 
     </div>
-  </div>
+  
 </body>
 
 </html>
