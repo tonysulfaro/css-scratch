@@ -21,21 +21,74 @@
   <div class="container">
     <h2>Check Some of Them Out Below</h2>
 
+    <!-- grid time -->
     <div class="example-container">
-
-      <div class="example">
-        <p><strong>Card Black Bottom</strong></p>
-        <div class="card-black-bottom">
-          <div class="card-black-bottom-img">
-            <img src="./example-assets/digital.jpg" alt="">
-          </div>
-          <h2>Card Title</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis sunt aliquam unde dicta aspernatur fugiat
-            deleniti. Temporibus deleniti, labore asperiores voluptate quasi, sunt eum mollitia ducimus, vel rerum
-            nesciunt.
-          </p>
+      <div class="row">
+        <div class="column">
+          <pre><code><? $str = <<<'EOD'
+            <div class="card-black-bottom">
+              <div class="card-black-bottom-img">
+                <img src="./example-assets/digital.jpg" alt="">
+              </div>
+              <h2>Card Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis sunt aliquam unde dicta aspernatur
+                fugiat
+                deleniti. Temporibus deleniti, labore asperiores voluptate quasi, sunt eum mollitia ducimus, vel rerum
+                nesciunt.
+              </p>
+            </div>
+          EOD;
+            $str = htmlspecialchars($str, ENT_HTML5, ENT_NOQUOTES);
+            $str = str_replace("&amp;hellip;", "&hellip;", $str);
+            echo($str);?>
+          </code></pre>
         </div>
+        <div class="column">
+
+          <pre>
+            .card-black-bottom {
+              width: 500px;
+              height: auto;
+              background-color: black;
+              border-radius: 5px;
+              color: white;
+              padding-bottom: 1em;
+            }
+            
+            .card-black-bottom-img {
+              height: 200px;
+              overflow: hidden;
+            }
+            
+            .card-black-bottom-img img {
+              width: 100%;
+            }
+            
+            .card-black-bottom h2, p {
+              margin-left: 30px;
+              margin-right: 30px;
+            }
+          </pre>
+
+        </div>
+        <div class="column">
+          <div class="card-black-bottom">
+            <div class="card-black-bottom-img">
+              <img src="./example-assets/digital.jpg" alt="">
+            </div>
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis sunt aliquam unde dicta aspernatur
+              fugiat
+              deleniti. Temporibus deleniti, labore asperiores voluptate quasi, sunt eum mollitia ducimus, vel rerum
+              nesciunt.
+            </p>
+          </div>
+        </div>
+
       </div>
+    </div>
+
+    <div class="example-container">
 
       <div class="example">
         <p><strong>card-person-information</strong></p>
