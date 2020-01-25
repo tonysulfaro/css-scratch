@@ -47,28 +47,28 @@
         <div class="column">
 
           <pre>
-            .card-black-bottom {
-              width: 500px;
-              height: auto;
-              background-color: black;
-              border-radius: 5px;
-              color: white;
-              padding-bottom: 1em;
-            }
-            
-            .card-black-bottom-img {
-              height: 200px;
-              overflow: hidden;
-            }
-            
-            .card-black-bottom-img img {
-              width: 100%;
-            }
-            
-            .card-black-bottom h2, p {
-              margin-left: 30px;
-              margin-right: 30px;
-            }
+  .card-black-bottom {
+    width: 500px;
+    height: auto;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 1em;
+  }
+  
+  .card-black-bottom-img {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-black-bottom-img img {
+    width: 100%;
+  }
+  
+  .card-black-bottom h2, p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
           </pre>
 
         </div>
@@ -109,27 +109,27 @@
         <div class="column">
 
           <pre>
-          /* card person information */
-          .team-card {
-            /* this looked nice so I threw it in 
-            https://codepen.io/sdthornton/pen/wBZdXq */
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12),
-                0 2px 4px rgba(0, 0, 0, 0.24);
-            border-radius: 10px;
-            width: 250px;
-            text-align: center;
-            margin: 2em 0 0 0;
-            padding: 2em;
-          }
+  /* card person information */
+  .team-card {
+    /* this looked nice so I threw it in 
+    https://codepen.io/sdthornton/pen/wBZdXq */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 2em 0 0 0;
+    padding: 2em;
+  }
 
-          .team-card:hover {
-            transform: translateY(-5px);
-          }
+  .team-card:hover {
+    transform: translateY(-5px);
+  }
 
-          .team-card img {
-            border-radius: 50%;
-            height: 200px;
-          }
+  .team-card img {
+    border-radius: 50%;
+    height: 200px;
+  }
           </pre>
 
         </div>
