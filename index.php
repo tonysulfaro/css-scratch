@@ -31,10 +31,11 @@
                 <img src="./example-assets/digital.jpg" alt="">
               </div>
               <h2>Card Title</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis sunt aliquam unde dicta aspernatur
-                fugiat
-                deleniti. Temporibus deleniti, labore asperiores voluptate quasi, sunt eum mollitia ducimus, vel rerum
-                nesciunt.
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+              elit. Ad omnis sunt aliquam unde dicta aspernatur
+              fugiat deleniti. Temporibus deleniti, labore 
+              asperiores voluptate quasi, sunt eum mollitia ducimus, 
+              vel rerum nesciunt.
               </p>
             </div>
           EOD;
@@ -107,9 +108,7 @@
           <div class="card-transparent-overlay-gradient">
             <div class="card-transparent-overlay-content">
               <h2>Lorem ipsum</h2>
-              <p>consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                dolorem ipsum quia
-                dolor.</p>
+              <p>consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</p>
             </div>
           </div>
           <img src="./example-assets/digital.jpg" alt="digital picture">
