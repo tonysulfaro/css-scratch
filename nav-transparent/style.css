@@ -5,15 +5,14 @@ body, html {
 body {
   font-family: sans-serif;
   margin: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0)),
-  url('laptop-coffee.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 nav {
-  height: 100%;
+  position: absolute;
   color: white;
+  width: 100%;
 }
 
 nav ul {
@@ -45,6 +44,12 @@ nav ul li a {
 .nav-logo {
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-image {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0)),
+  url('laptop-coffee.jpg');
+  height: 50%;
 }
 
 .container {
