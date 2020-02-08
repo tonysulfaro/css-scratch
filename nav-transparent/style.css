@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   color: white;
   width: 100%;
 }
@@ -44,6 +44,16 @@ nav ul li a {
 .nav-logo {
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-colored {
+  background-color: black;
+}
+
+
+.nav-transparent {
+  background-color: none;
+  color: white;
 }
 
 .header-image {
