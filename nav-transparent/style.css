@@ -15,7 +15,15 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  justify-content: space-between;
   padding: 1em;
+}
+
+nav ul div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 1em;n
 }
 
 nav ul li {
