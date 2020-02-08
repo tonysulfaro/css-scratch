@@ -11,19 +11,24 @@ body {
   background-repeat: no-repeat;
 }
 
+nav {
+  height: 100%;
+  color: white;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  padding: 1em;
+  margin: 0;
 }
 
 nav ul div{
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  padding: 1em;n
+  padding: 1em;
 }
 
 nav ul li {
@@ -31,7 +36,7 @@ nav ul li {
   margin: 0 1em;
 }
 
-nav ul li a,p {
+nav ul li a {
   text-decoration: none;
   color: white;
   margin: 0;
@@ -40,4 +45,8 @@ nav ul li a,p {
 .nav-logo {
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 4em;
 }
