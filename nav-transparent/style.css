@@ -21,6 +21,7 @@ nav ul {
   align-items: baseline;
   justify-content: space-between;
   margin: 0;
+  padding: 0 2em;
 }
 
 nav ul div{
