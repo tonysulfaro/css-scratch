@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 1em;
+    text-align: center;
+}
+
+.todo-heading {
+    padding: 2em;
+}
+
+.todo-item {
+    text-align: left;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.todo-item button {
+    float: right;
+    margin: 0 1em;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.primary {
+    background-color: #4caf50;
+}
+
+.danger {
+    background-color: #f44336;
+}
