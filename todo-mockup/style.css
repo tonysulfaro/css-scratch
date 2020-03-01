@@ -12,14 +12,23 @@ body, html {
     padding: 2em;
 }
 
+.todo-input * {
+    margin: 0 1em;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
 .todo-item {
     text-align: left;
+    max-width: 1000px;
     border-radius: 5px;
     padding: 1em;
     margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid lightgray;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px gray;
 }
 
 .todo-item button {
