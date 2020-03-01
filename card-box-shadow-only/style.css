@@ -1,0 +1,13 @@
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.card {
+    padding: 1em;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid rgba(211, 211, 211, 0.603);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px lightgray;
+}
