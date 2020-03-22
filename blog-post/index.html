@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog Post</title>
+  </head>
+  <body>
+    <header>
+      <div class="bg">
+        <h1>Creating a RESTful API with Express</h1>
+      </div>
+    </header>
+    <main class="container">
+      <h2>Setup</h2>
+      <p>To get started let's install some dependencies (assuming you have nodejs, npm, and yarn installed</p>
+      <p><pre>yarn install --dev express</pre></p>
+      <p><pre>yarn install --dev cors</pre></p>
+      <p><pre>yarn install --dev body-parser</pre></p>
+
+      <h2>Hello World Example</h2>
+      <p>Here is a simple hello world example where calling our API at the base bath "/" returns a JSON object with the message "welcome to my API"</p>
+      <p><pre>var express = require('express')
+var cors = require('cors')
+var app = express()
+var bodyParser = require('body-parser')
+app.use(bodyParser.json())
+app.use(cors())
+var port = process.env.PORT || 8080
+
+app.get('/', function (request, response) {
+  response.json({
+    welcome: 'welcome to my API!'
+  })
+})
+app.listen(port)</pre></p>
+    </main>
+
+    <footer>
+      <h2>About</h2>
+    </footer>
+  </body>
+</html>
