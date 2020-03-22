@@ -21,6 +21,7 @@
 
       <h2>Hello World Example</h2>
       <p>Here is a simple hello world example where calling our API at the base bath "/" returns a JSON object with the message "welcome to my API"</p>
+      <p><strong><i>server.js</i></strong></p>
       <p><pre>var express = require('express')
 var cors = require('cors')
 var app = express()
@@ -35,6 +36,14 @@ app.get('/', function (request, response) {
   })
 })
 app.listen(port)</pre></p>
+
+    <p>Let's run the server now</p>
+    <p><pre>node server.js</pre></p>
+    <p>Open http://localhost:8080 in your browser or through postman and you should see the JSON response message</p>
+    <p><pre>
+{
+  welcome: 'welcome to my API!'
+}</pre></p>
     </main>
 
     <footer>
