@@ -1,6 +1,7 @@
 document.getElementById("cc-number").addEventListener("input", () => {
   let ccNum = document.getElementsByClassName("cc-number")[0];
-  ccNum.innerHTML = document.getElementById("cc-number").value;
+  let ccInput = document.getElementById("cc-number").value;
+  ccNum.innerHTML = ccInput;
 });
 
 document.getElementById("cc-name").addEventListener("input", () => {
