@@ -1,0 +1,47 @@
+body,
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 4em;
+}
+
+.cc-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px lightgray;
+}
+
+.cc-form p input {
+  width: 95%;
+}
+
+.live-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.596)),
+    url("code.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.25em;
+  height: 200px;
+  width: 400px;
+  box-shadow: 5px 5px 15px lightgray;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 1em;
+}
