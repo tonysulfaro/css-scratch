@@ -29,5 +29,9 @@ body {
 
 .card-gradient p,
 h2 {
-  margin: 2em;
+  margin-left: 40px;
+}
+
+.card-gradient h2 {
+  margin-bottom: 40px;
 }
