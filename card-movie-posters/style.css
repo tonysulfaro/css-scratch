@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(49, 49, 49);
+}
+
+.container {
+  padding: 4em;
+}
+
+.movie-card {
+  overflow: hidden;
+  height: 100%;
+}
+
+.movie-card img {
+  max-width: 400px;
+}
+
+.card-gradient {
+  position: absolute;
+  background-image: linear-gradient(rgba(38, 0, 255, 0), rgb(63, 80, 156));
+  color: white;
+  width: 400px;
+  height: 552px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card-gradient p,
+h2 {
+  margin: 2em;
+}
