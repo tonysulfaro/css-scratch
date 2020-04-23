@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+nav * {
+  margin: 10px 1em;
+}
+
+nav p {
+  margin-left: 2em;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.349)
+    ),
+    url("adventrure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.349)
+    ),
+    url("norway.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4em;
+}
+
+.information {
+  padding: 4em;
+}
+
+footer {
+  padding: 4em;
+  background-color: #212121;
+  color: white;
+}
