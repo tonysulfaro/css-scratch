@@ -7,8 +7,8 @@ html {
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(to bottom, #00909e, #dae1e7);
   background-position: center;
   background-repeat: no-repeat;
@@ -30,4 +30,5 @@ body {
 
 .search-container input[type="text"] {
   min-width: 300px;
+  margin-bottom: 25px;
 }
